@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Portofilo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+    </head>
 <body>
+    <svg id="menubar" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="25" width="25" xmlns="http://www.w3.org/2000/svg"><path d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z"></path></svg>
     <header class="header-home">
-        <div class="background-image">
+        <div class="background-image"> 
             <img src="./images/software-development-specialist.jpg" alt="background">
         </div>
         <div class="header-content">
@@ -20,27 +24,34 @@
 
             <nav>
                 <ul>
-                    <li><a href="home.html" class="selected">Home</a></li>
-                    <li><a href="about.html">About me</a></li>
-                    <li><a href="testimonial.html">Testimonial</a></li>
-                    <li><a href="education.html">Education</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
+                    <div>
+                        <li><a href="home.html" class="selected">Home</a></li>
+                        <li><a href="about.html">About me</a></li>
+                        <li><a href="testimonial.html">Testimonial</a></li>
+                    </div>
+                    <div>
+                        <li><a href="education.html">Education</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </div>
+                    </ul>
             </nav>
         </div>
         
-        <!-- <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="25" width="25" xmlns="http://www.w3.org/2000/svg"><path d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z"></path></svg> -->
+        
     </header>
 
 <main class="home-main">
-    <article>   
+    <h1>Home</h1>  
+    <article class="deco">
+         
         <section class="summary"> 
             <div class="summary-image">
-                <img src="images/software-engineer-at-work-1.jpg" height="350" width="350">
+                <h2>Hello, My Name Is Feven </h2>
+                <img src="images/software-engineer-at-work-1.jpg" height="250" width="250">
             </div>
 
             <div class="summary-content">
-                <h2>Hello, My Name Is Feven </h2>
+                
                 <h3>I am a Software _Engineer Developer Currently I'am  Working at <u>ui.der</u> Helping Folks Level Up With JavaScript</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sed veniam a labore, quaerat, nemo adipisci rem dignissimos in animi est aperiam commodi natus, maiores illo eum eius dolorem consequatur. Odit ad molestiae est, perferendis, nam dolorem quidem, enim id nobis optio blanditiis ut eos sequi fugit! Officiis, exercitationem et?</p>
                 <button>more</button>
@@ -50,12 +61,16 @@
         <section class="skills">
             <h2>My Skills</h2>
             <ul>
-                <li>JavaScript</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Python</li>
-                <li>MY SQL</li>
-                <li>GITHUB</li>
+                <div>
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </div>
+                <div>
+                    <li>Python</li>
+                    <li>MY SQL</li>
+                    <li>GITHUB</li>
+                </div>
             </ul>
         </section>
     </article>
@@ -73,7 +88,7 @@
                     </li>
                     <li>
                         <i class="fa fa-envelope">
-                            <a href="mailto:fevenlendu777@gmail.com">fevenlendu777@gmail.com</a>
+                            <a href="mailto:fevenlendu777@gmail.com">my email</a>
                         </i> 
                     </li>
                 </ul>

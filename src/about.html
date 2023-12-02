@@ -9,7 +9,11 @@
 
 </head>
 <body>
-    <header class="header-other">
+    <svg id="menubar" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="25" width="25" xmlns="http://www.w3.org/2000/svg"><path d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z"></path></svg>
+    <header class="header-home">
+        <div class="background-image"> 
+            <img src="./images/software-development-specialist.jpg" alt="background">
+        </div>
         <div class="header-content">
             <div class="logo">
                 <img src="./images/MYLOGO.jpg" alt="logo" width="40" height="40">
@@ -18,19 +22,25 @@
 
             <nav>
                 <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="about.html" class="selected">About me</a></li>
-                    <li><a href="testimonial.html">Testimonial</a></li>
-                    <li><a href="education.html">Education</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
+                    <div>
+                        <li><a href="home.html" class="selected">Home</a></li>
+                        <li><a href="about.html">About me</a></li>
+                        <li><a href="testimonial.html">Testimonial</a></li>
+                    </div>
+                    <div>
+                        <li><a href="education.html">Education</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </div>
+                    </ul>
             </nav>
         </div>
-        <!-- <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="25" width="25" xmlns="http://www.w3.org/2000/svg"><path d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z"></path></svg> -->
+        
+        
     </header>
-    <main>
+
+    <main id="about">
         <h1>About me</h1>
-        <section>
+        <section class=" eng deco">
             <h2>Engineering</h2>
          <p>The power of first impressions cannot be underestimated, and the 
         gateway to capitalizing on them lies in exceptional website design. 
@@ -43,7 +53,7 @@
         emented by my proficiency in modern building practices, ensuring \
         that every aspect of your website is finely tuned to perfection.</p>
         </section>
-        <section>
+        <section class=" design deco">
             <h2>Design</h2>
             <p>Despite not fitting the typical designer stereotype, my exceptio
                nal visual abilities enable me to excel as a presenter, effecti
@@ -52,7 +62,8 @@
                envision and bring forth stunning creations. Additionally, my 
                expertise lies in fine-tuning stylesheets and crafting seamless 
                user experiences that flow effortlessly.</p>
-               <section>
+            </section>
+            <section class=" reads deco">
                 <h2>My Reads</h2>
                 <h3>Human Centered Design</h3> 
                 <p>This is an intensive, hands-on learning experience that will 
@@ -69,11 +80,12 @@
                  <h3>Learing Something Great</h3>
                  <p>we continue learning everyday.</p>
                </section>
+    
         
    
-  
+  <section class="deco" id="audio">
     <h2>My Favorite Audio Music</h2>
-    <a href="../../../Music/12_Bereket_Tesfaye_የውሃ_በረሐ_Yeweha_Bereha_በረከት_ተስፋዬ_የውሃ_በረሐ128k.mp3">playlist</a>
+    <a href="../../../Music/12_Bereket_Tesfaye_የውሃ_በረሐ_Yeweha_Bereha_በረከት_ተስፋዬ_የውሃ_በረሐ128k.mp3">Playlist</a>
     <h2>My Motivation Video</h2>
     <iframe width="300" height="300" src="https://www.youtube.com/embed/YwHXniAUMQo?si=PqIARjGNEuLA8PsD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -93,7 +105,7 @@
                     </li>
                     <li>
                         <i class="fa fa-envelope">
-                            <a href="mailto:fevenlendu777@gmail.com">fevenlendu777@gmail.com</a>
+                            <a href="mailto:fevenlendu777@gmail.com">my email</a>
                         </i> 
                     </li>
                 </ul>
