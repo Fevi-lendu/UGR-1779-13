@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/myjs.js" defer></script>
 </head>
 <body>
     <svg id="header_menubar" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="25" width="25" xmlns="http://www.w3.org/2000/svg"><path d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z"></path></svg>
@@ -24,7 +25,7 @@
 
             <nav>
                 <ul>
-                    <div>
+                    <div class="menus">
                         <li><a href="home.html" >Home</a></li>
                         <li><a href="about.html">About me</a></li>
                         <li><a href="testimonial.html">Testimonial</a></li>
@@ -35,8 +36,7 @@
                     </div>
                     </ul>
             </nav>
-        </div>
-        
+        </div> 
         
     </header>
 
@@ -48,14 +48,14 @@
                  
                 <div class="home_summary-image">
                     <h2>Hello, My Name Is Feven </h2>
-                    <img src="images/software-engineer-at-work-1.jpg" height="250" width="250">
+                    <img src="images/software-engineer-at-work-1.jpg" height="250" width="250"> 
                 </div>
     
                 <div class="home_summary-content">
                     
                     <h3>I am a Software _Engineer Developer Currently I'am  Working at <u>ui.der</u> Helping Folks Level Up With JavaScript</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sed veniam a labore, quaerat, nemo adipisci rem dignissimos in animi est aperiam commodi natus, maiores illo eum eius dolorem consequatur. Odit ad molestiae est, perferendis, nam dolorem quidem, enim id nobis optio blanditiis ut eos sequi fugit! Officiis, exercitationem et?</p>
-                    <button>more</button>
+                    <button id="moreButton">more</button>
                 </div>
             </section>
             
@@ -125,5 +125,7 @@
         </div>
         <p class="footer_copyright">@copyright 2023</p>
     </footer>  
+    
+
 </body>
 </html>

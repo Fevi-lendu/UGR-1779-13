@@ -6,6 +6,7 @@ body {
     user-select: none;
    
 }
+
 body p , body h1 {
     font-family: 'Nunito', sans-serif;
 }
@@ -16,9 +17,7 @@ body p , body h1 {
     background-color: black;
     padding: 5px;
 }
-#header_menubar:hover + .header-home , .header-home:hover{
-    display: block;
-}
+
 .header-other {
     position: relative;
     background-color: #261c41;
