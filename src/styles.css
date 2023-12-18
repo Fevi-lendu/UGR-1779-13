@@ -18,6 +18,12 @@ body p , body h1 {
     padding: 5px;
 }
 
+#header_menubar:hover + .header-home , .header-home:hover{
+    display: block;
+    margin-top: -5px;
+}
+
+
 .header-other {
     position: relative;
     background-color: #261c41;
