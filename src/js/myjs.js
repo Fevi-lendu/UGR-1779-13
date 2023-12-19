@@ -55,3 +55,25 @@ document.addEventListener('DOMContentLoaded', function() {
         contactSitemap.addEventListener('click', function () {
             window.location.href = 'contact.html';
         });
+
+
+const  menuBar = document.getElementById("header_menubar")
+const dropdown = document.getElementById("dropdown")
+
+menuBar.addEventListener("click", ()=>{
+    console.log(dropdown.innerHTML)
+    dropdown.classList.toggle("dropdown_visible")
+})
+let submitBtn = document.getElementById("submit")
+submitBtn.addEventListener("click", function(){
+    let first_name = document.getElementById("input_name").value;
+    
+    let email = document.getElementById("email").value;
+    let comment = document.getElementById("contact_comment").value;
+    let mailtoLink =  `mailto:fevenlendu777@gmail.com?subject= Want    to Contact&body=Name: ${first_name }%0D%0AEmail: ${email}%0D%0AComment: ${comment};`
+    window.location.href = mailtoLink;
+    document.getElementById('input_name').value = '';
+    
+    document.getElementById('email').value = '';
+    document.getElementById('contact_comment').value = '';
+})

@@ -2,19 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Portofilo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script src="js/myjs.js" defer></script>
+    <script src="js/myjs.js" defer></script>
 </head>
 <body>
     <svg id="header_menubar" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="25" width="25" xmlns="http://www.w3.org/2000/svg"><path d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z"></path></svg>
     <header class="header-home">
-        
         <div class="header_background-image"> 
             <img src="./images/software-development-specialist.jpg" alt="background">
         </div>
+        <div id="header_menubar" class="menubar">Header Menu</div>
         <div class="header-content">
             <div class="header_logo">
                 <img src="./images/MYLOGO.jpg" alt="logo" width="40" height="40">
@@ -23,22 +26,24 @@
 
             <nav>
                 <ul>
-                    <div>
                         <li><a href="home.html" >Home</a></li>
                         <li><a href="about.html">About me</a></li>
                         <li><a href="testimonial.html">Testimonial</a></li>
-                    </div>
-                    <div>
                         <li><a href="education.html">Education</a></li>
                         <li><a href="contact.html">Contact</a></li>
-                    </div>
                     </ul>
             </nav>
-        </div>
-        
-        
-        
+                
+        </div> 
+    
     </header>
+    <div class="dropdown" id="dropdown">
+            <li><a href="home.html" >Home</a></li>
+            <li><a href="about.html">About me</a></li>
+            <li><a href="testimonial.html">Testimonial</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="contact.html">Contact</a></li>
+    </div>
 
     <main id="about">
         <h1>About me</h1>
