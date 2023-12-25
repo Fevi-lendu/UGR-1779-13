@@ -1,0 +1,20 @@
+
+    body {
+    background: url('images/background.jpg');
+    background-size: contain;
+    background-repeat: repeat-y;
+}
+header li.active {
+    background-color: #5615eed5; 
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+header {
+    background-image: url('images/software-development-specialist.jpg');
+}
+.custom-section {
+    border-radius: 10px;
+    padding: 60px;
+    margin: 60px 0;
+  }
